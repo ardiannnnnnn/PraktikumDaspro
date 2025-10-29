@@ -17,9 +17,9 @@ public class KafeDoWhileNoAbsen {
             }
             System.out.println("Jumlah Kopi : ");
             kopi = sc.nextInt();
-            System.out.println("Harga Teh :");
+            System.out.println("jumlah Teh :");
             teh = sc.nextInt();
-            System.out.println("Harga Roti : ");
+            System.out.println("jumlah Roti : ");
             roti = sc.nextInt();
             
             totalHarga = (kopi * hargaKopi) + (teh * hargaTeh) + (roti * hargaRoti);
