@@ -4,7 +4,8 @@ class SiakadForNoAbsen {
         Scanner sc = new Scanner(System.in);
 
         double nilai, tertinggi = 0, terendah = 100;
-        
+        int lulus = 0,tidakLulus=0;
+
         for (int i = 1; i <= 10; i++){
             System.out.println("Masukkan nilai mahasiswa ke-"+ i +" :");
             nilai = sc.nextDouble();
@@ -14,9 +15,16 @@ class SiakadForNoAbsen {
             if(nilai < terendah){
                 terendah = nilai;
             }
+            if(nilai >= 60){
+                lulus++;
+            }else{
+                tidakLulus++;
+            }
         }
         System.out.println("nilai tertinggi : "+ tertinggi);
         System.out.println("nilai terendah : "+ terendah);
+        System.out.println("Jumlah Mahasiswa lulus :" +lulus);
+        System.out.println("Jumlah Mahasiswa tidak Lulus :"+tidakLulus);
 
     }
     
