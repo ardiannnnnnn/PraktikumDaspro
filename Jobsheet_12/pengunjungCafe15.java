@@ -1,10 +1,10 @@
 public class pengunjungCafe15 {
     static void daftarPengunjung(String...namaPengunjung){
-        System.out.println("DAftar nama penguunjung: ");
-        for (int i = 0 ; i < namaPengunjung.length; i++) {
-            System.out.println("- "+namaPengunjung[i]);
-        }
+        System.out.println("Daftar nama penguunjung: ");
         
+        for (String nama : namaPengunjung) {
+            System.out.println("- "+nama);
+        }
     }
     public static void main(String[] args) {
         daftarPengunjung("Andi");

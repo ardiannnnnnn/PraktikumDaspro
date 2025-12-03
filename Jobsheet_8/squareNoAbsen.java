@@ -19,6 +19,5 @@ public class squareNoAbsen {
 
             System.out.println();
         }
-
     }
 }
